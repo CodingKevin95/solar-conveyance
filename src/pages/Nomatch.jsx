@@ -1,6 +1,7 @@
 import React from "react"
 import "../styles/NoMatch.css"
 import Background from '../kevin/Background'
+import { Link } from 'react-router-dom'
 
 export default function Nomatch() {
   return (
@@ -15,9 +16,9 @@ export default function Nomatch() {
           />
         </div>
         <div>
-          <a href="http://localhost:3000/" class="btn-go-home">
+        <Link to="/" class="btn-go-home">
             GO BACK HOME
-          </a>
+          </Link>
         </div>
       </div>
       <div class="objects">
